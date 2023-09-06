@@ -1,0 +1,28 @@
+import {moderateScale, scale, verticalScale} from 'react-native-size-matters';
+
+export const spacing = {
+  xs: moderateScale(4),
+  s: moderateScale(8),
+  m: moderateScale(16),
+  mm: moderateScale(20),
+  l: moderateScale(24),
+  xl: moderateScale(40),
+  vxs: moderateScale(4),
+  vxss: moderateScale(6),
+  vs: verticalScale(8),
+  vss: verticalScale(12),
+  vm: verticalScale(16),
+  vl: verticalScale(24),
+  vxl: verticalScale(40),
+  vxxl: verticalScale(60),
+  vxxxl: verticalScale(80),
+  hxs: moderateScale(4),
+  hs: scale(8),
+  hss: scale(12),
+  hm: scale(16),
+  hmm: scale(18),
+  hl: scale(24),
+  hxl: scale(40),
+  hxxl: scale(60),
+  hxxxl: scale(80),
+};
